@@ -7,7 +7,7 @@ using namespace cv;
 
 
 int main004() {
-	Mat src = imread("C:\\Users\\84566\\Pictures\\1.png");
+	Mat src = imread("Pictures\\1.png");
 	imshow("src", src);
 
 #pragma region 手动实现掩模

@@ -32,8 +32,8 @@ void conversion(Mat& src, double alpha, double beta, Mat& dst) {
 	}
 }
 
-int main008() {
-	Mat src = imread("C:\\Users\\84566\\Pictures\\1.png");
+int main() {
+	Mat src = imread("Pictures\\1.png");
 	imshow("src", src);
 
 	Mat src_conversion;

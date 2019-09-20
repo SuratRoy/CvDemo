@@ -18,7 +18,7 @@ void print2(vector<int> & arr) {
 void GetBarcode1DArr(Mat &bmpMat, vector<vector<int>> & const dst);
 
 int main003() {
-	Mat src = imread("C:\\Users\\84566\\Pictures\\1.png");
+	Mat src = imread("Pictures\\1.png");
 	imshow("src", src);
 
 	Mat dst;
@@ -27,7 +27,7 @@ int main003() {
 	imshow("dst", dst);
 
 	//±£´æÍ¼Æ¬
-	imwrite("C:\\Users\\84566\\Pictures\\1_gray.png", dst);
+	imwrite("Pictures\\1_gray.png", dst);
 
 	const int col = src.cols;
 	const int row = src.rows;

@@ -40,7 +40,7 @@ void negate(Mat& src, Mat& dst) {
 }
 
 int main006() {
-	Mat src = imread("C:\\Users\\84566\\Pictures\\1.png");
+	Mat src = imread("Pictures\\1.png");
 	imshow("src", src);
 
 	Mat src_negate;

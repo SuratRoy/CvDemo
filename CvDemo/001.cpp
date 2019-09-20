@@ -7,7 +7,7 @@ using namespace cv;
 
 
 int main001() {
-	Mat src = imread("C:\\Users\\84566\\Pictures\\1.png");
+	Mat src = imread("Pictures\\1.png");
 
 	if (!src.empty()) {
 		imshow("img", src);

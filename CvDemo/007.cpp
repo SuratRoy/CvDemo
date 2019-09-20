@@ -7,9 +7,9 @@ using namespace cv;
 
 
 int main007() {
-	Mat src1 = imread("C:\\Users\\84566\\Pictures\\3.jpg");
+	Mat src1 = imread("Pictures\\3.jpg");
 	imshow("src1", src1);
-	Mat src2 = imread("C:\\Users\\84566\\Pictures\\5.jpg");
+	Mat src2 = imread("Pictures\\5.jpg");
 	imshow("src2", src2);
 
 	double alpha = 0.4;  //ШЈжи
