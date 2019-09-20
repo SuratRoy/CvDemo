@@ -123,9 +123,13 @@
     <ClCompile Include="006.cpp" />
     <ClCompile Include="007.cpp" />
     <ClCompile Include="008_调整图像亮度和对比度.cpp" />
-    <ClCompile Include="009_滤波模糊降噪.cpp" />
+    <ClCompile Include="009_均值滤波与高斯滤波.cpp" />
+    <ClCompile Include="010_中值滤波.cpp" />
+    <ClCompile Include="011_双边滤波.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\..\..\..\..\Pictures\8.jpg" />
+    <Image Include="..\..\..\..\..\Pictures\9.jpg" />
     <Image Include="Pictures\1.png" />
     <Image Include="Pictures\2.jpg" />
     <Image Include="Pictures\3.jpg" />

@@ -39,7 +39,13 @@
     <ClCompile Include="008_调整图像亮度和对比度.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="009_滤波模糊降噪.cpp">
+    <ClCompile Include="009_均值滤波与高斯滤波.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="010_中值滤波.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="011_双边滤波.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -63,6 +69,12 @@
       <Filter>资源文件</Filter>
     </Image>
     <Image Include="Pictures\7.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Pictures\9.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Pictures\8.jpg">
       <Filter>资源文件</Filter>
     </Image>
   </ItemGroup>
