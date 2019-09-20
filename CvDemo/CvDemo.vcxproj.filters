@@ -39,5 +39,8 @@
     <ClCompile Include="008_调整图像亮度和对比度.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="009_滤波模糊降噪.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
