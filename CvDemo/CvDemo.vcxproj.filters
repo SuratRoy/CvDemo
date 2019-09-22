@@ -54,6 +54,9 @@
     <ClCompile Include="013_开闭操作.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="014_顶帽与黑帽.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Pictures\1.png">

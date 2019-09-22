@@ -5,11 +5,11 @@ using namespace std;
 #include <opencv2/opencv.hpp>
 using namespace cv;
 
-//形态学操作
+//形态学操作，一般对二值图像处理效果最好
 //开操作：先膨胀后腐蚀
 //闭操作：先腐蚀后膨胀，与开操作相反
 
-int main() {
+int main013() {
 	//这里有一副图像，背景为黑色，目标为白色，现在要通过形态学操作去除干扰
 	Mat src = imread("Pictures\\11.png");
 	imshow("src", src);
