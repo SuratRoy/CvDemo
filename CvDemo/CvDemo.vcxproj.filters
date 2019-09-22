@@ -51,6 +51,9 @@
     <ClCompile Include="012_膨胀腐蚀.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="013_开闭操作.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Pictures\1.png">
@@ -74,16 +77,16 @@
     <Image Include="Pictures\7.jpg">
       <Filter>资源文件</Filter>
     </Image>
-    <Image Include="..\..\..\..\..\Pictures\9.jpg">
+    <Image Include="Pictures\8.jpg">
       <Filter>资源文件</Filter>
     </Image>
-    <Image Include="..\..\..\..\..\Pictures\8.jpg">
+    <Image Include="Pictures\9.jpg">
       <Filter>资源文件</Filter>
     </Image>
-    <Image Include="..\..\..\..\Desktop\10.png">
+    <Image Include="Pictures\10.png">
       <Filter>资源文件</Filter>
     </Image>
-    <Image Include="..\..\..\..\Desktop\11.png">
+    <Image Include="Pictures\11.png">
       <Filter>资源文件</Filter>
     </Image>
   </ItemGroup>

@@ -9,7 +9,7 @@ using namespace cv;
 //通过将像素添加到该图像中的对象的感知边界，扩张放大图像中的明亮白色区域。腐蚀恰恰相反：它沿着物体边界移除像素并缩小物体的大小。
 //通常这两个操作是按顺序执行的，以增强重要的对象特征！
 
-int main() {
+int main012() {
 	Mat src = imread("Pictures\\10.png");
 	imshow("src", src);
 
