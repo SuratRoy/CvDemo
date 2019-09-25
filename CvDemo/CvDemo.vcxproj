@@ -115,13 +115,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="001.cpp" />
-    <ClCompile Include="002.cpp" />
-    <ClCompile Include="003.cpp" />
+    <ClCompile Include="001_读取图片.cpp" />
+    <ClCompile Include="002_读取灰度图.cpp" />
+    <ClCompile Include="003_彩色图转灰度图.cpp" />
     <ClCompile Include="004_掩模操作增强对比度.cpp" />
-    <ClCompile Include="005.cpp" />
-    <ClCompile Include="006.cpp" />
-    <ClCompile Include="007.cpp" />
+    <ClCompile Include="005_图像构造与拷贝.cpp" />
+    <ClCompile Include="006_图像取反操作.cpp" />
+    <ClCompile Include="007_图像混合操作.cpp" />
     <ClCompile Include="008_调整图像亮度和对比度.cpp" />
     <ClCompile Include="009_均值滤波与高斯滤波.cpp" />
     <ClCompile Include="010_中值滤波.cpp" />
