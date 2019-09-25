@@ -60,6 +60,9 @@
     <ClCompile Include="015_二值化.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="016_提取水平与垂直线.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Pictures\1.png">
@@ -96,6 +99,9 @@
       <Filter>资源文件</Filter>
     </Image>
     <Image Include="Pictures\12.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Pictures\13.png">
       <Filter>资源文件</Filter>
     </Image>
   </ItemGroup>
