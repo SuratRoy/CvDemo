@@ -57,6 +57,9 @@
     <ClCompile Include="007_图像混合操作.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="015_二值化.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Pictures\1.png">

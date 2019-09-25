@@ -9,7 +9,7 @@ using namespace cv;
 //¶¥Ã±²Ù×÷=¿ª²Ù×÷-Ô´Í¼Ïñ
 //ºÚÃ±²Ù×÷=±Õ²Ù×÷-Ô´Í¼Ïñ
 
-int main() {
+int main014() {
 	Mat src = imread("Pictures\\11.png");
 	imshow("src", src);
 	Mat dst_¶¥Ã±, dst_ºÚÃ±;

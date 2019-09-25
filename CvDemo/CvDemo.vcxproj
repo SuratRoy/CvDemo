@@ -129,6 +129,7 @@
     <ClCompile Include="012_膨胀腐蚀.cpp" />
     <ClCompile Include="013_开闭操作.cpp" />
     <ClCompile Include="014_顶帽与黑帽.cpp" />
+    <ClCompile Include="015_二值化.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Pictures\1.png" />
