@@ -4,7 +4,7 @@ using namespace std;
 #include <opencv2/opencv.hpp>
 using namespace cv;
 
-int main() {
+int main016() {
 	Mat src = imread("Pictures\\13.png");
 
 	imshow("src", src);

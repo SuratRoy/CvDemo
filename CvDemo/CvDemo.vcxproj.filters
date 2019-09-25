@@ -63,6 +63,9 @@
     <ClCompile Include="016_提取水平与垂直线.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="017_验证码去干扰案例.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Pictures\1.png">
@@ -102,6 +105,9 @@
       <Filter>资源文件</Filter>
     </Image>
     <Image Include="Pictures\13.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Pictures\14.png">
       <Filter>资源文件</Filter>
     </Image>
   </ItemGroup>

@@ -131,6 +131,7 @@
     <ClCompile Include="014_顶帽与黑帽.cpp" />
     <ClCompile Include="015_二值化.cpp" />
     <ClCompile Include="016_提取水平与垂直线.cpp" />
+    <ClCompile Include="017_验证码去干扰案例.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Pictures\1.png" />
@@ -138,6 +139,7 @@
     <Image Include="Pictures\11.png" />
     <Image Include="Pictures\12.jpg" />
     <Image Include="Pictures\13.png" />
+    <Image Include="Pictures\14.png" />
     <Image Include="Pictures\2.jpg" />
     <Image Include="Pictures\3.jpg" />
     <Image Include="Pictures\4.jpg" />
