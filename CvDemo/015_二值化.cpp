@@ -37,7 +37,7 @@ void on_trackbar_C(int pos, void*) {
 	update_adaptive_binary();
 }
 
-int main() {
+int main015() {
 	Mat src = imread("Pictures\\6.jpg");
 
 	imshow("src", src);
