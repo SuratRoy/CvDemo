@@ -10,7 +10,8 @@ void on_trackbar(int pos, void*)
 {
 	//全局二值化方法 threshold 方法，主要是通过遍历灰度图中点，将图像信息二值化，处理过后的图片只有二种色值
 	//CV_THRESH_BINARY代表： value = value > pos ? 255 : 0 （灰度级大于阈值的像素被标记为255，否则为0）
-	threshold(dst_gray, dst_binary, pos, 255, CV_THRESH_BINARY);
+	//如果加上后面的THRESH_OTSU，则根据算法自动设置阈值，并忽略传入的阈值参数
+	threshold(dst_gray, dst_binary, pos, 255, cv::ThresholdTypes::THRESH_BINARY /*| cv::ThresholdTypes::THRESH_OTSU*/);
 	namedWindow("全局二值化");
 	imshow("全局二值化", dst_binary);
 }
