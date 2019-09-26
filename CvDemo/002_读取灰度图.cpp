@@ -8,7 +8,7 @@ using namespace cv;
 
 int main002() {
 	//º”‘ÿª“∂»Õº
-	Mat src = imread("Pictures\\1.png", 0);
+	Mat src = imread("Pictures\\1.png", cv::ImreadModes::IMREAD_GRAYSCALE);
 	imshow("img", src);
 	waitKey(0);
 
