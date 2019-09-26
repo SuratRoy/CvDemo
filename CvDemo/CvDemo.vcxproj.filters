@@ -66,6 +66,12 @@
     <ClCompile Include="017_验证码去干扰案例.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="018_上下采样.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="019_高斯不同DOG.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Pictures\1.png">

@@ -132,6 +132,8 @@
     <ClCompile Include="015_二值化.cpp" />
     <ClCompile Include="016_提取水平与垂直线.cpp" />
     <ClCompile Include="017_验证码去干扰案例.cpp" />
+    <ClCompile Include="018_上下采样.cpp" />
+    <ClCompile Include="019_高斯不同DOG.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Pictures\1.png" />
