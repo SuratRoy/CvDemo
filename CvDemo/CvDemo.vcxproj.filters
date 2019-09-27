@@ -72,6 +72,9 @@
     <ClCompile Include="019_高斯不同DOG.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="020_边缘检测_Sobel算子.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Pictures\1.png">

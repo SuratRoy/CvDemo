@@ -5,7 +5,7 @@ using namespace cv;
 //就是把同一张图像在不同的参数下做高斯模糊之后的结果相减，得到的输出图像。称为高斯不同(DOG)
 //高斯不同是图像的内在特征，在灰度图像增强、角点检测中经常用到。
 
-int main() {
+int main019() {
 	Mat src = imread("Pictures\\5.jpg");
 	imshow("src", src);
 
