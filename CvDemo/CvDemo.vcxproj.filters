@@ -137,5 +137,8 @@
     <Image Include="Pictures\16.png">
       <Filter>资源文件</Filter>
     </Image>
+    <Image Include="Pictures\17.png">
+      <Filter>资源文件</Filter>
+    </Image>
   </ItemGroup>
 </Project>

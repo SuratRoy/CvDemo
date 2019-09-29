@@ -3,7 +3,7 @@ using namespace cv;
 using namespace std;
 
 int main() {
-	Mat src = imread("Pictures\\16.png");
+	Mat src = imread("Pictures\\17.png");
 	imshow("src", src);
 
 	Mat gray;
@@ -14,7 +14,7 @@ int main() {
 	//medianBlur(gray, gray, 3);
 
 	vector<Vec3f> dst_circles;
-	HoughCircles(gray, dst_circles, cv::HoughModes::HOUGH_GRADIENT, 1, 20, 100, 20, 10, 100);
+	HoughCircles(gray, dst_circles, cv::HoughModes::HOUGH_GRADIENT, 1, 10, 100, 50, 10, 100);
 
 	Mat dst = src.clone();
 
