@@ -13,11 +13,12 @@ int main() {
 	//中值滤波，抑制椒盐噪声
 	//medianBlur(gray, gray, 3);
 
+	//检测符合条件的圆
 	vector<Vec3f> dst_circles;
 	HoughCircles(gray, dst_circles, cv::HoughModes::HOUGH_GRADIENT, 1, 10, 100, 50, 10, 100);
 
+	//在源图上绘制显示
 	Mat dst = src.clone();
-
 	for (size_t i = 0; i < dst_circles.size(); i++)
 	{
 		Vec3f c = dst_circles[i];
