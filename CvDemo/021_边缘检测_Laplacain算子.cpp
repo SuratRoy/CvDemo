@@ -1,7 +1,7 @@
 #include <opencv2/opencv.hpp>
 using namespace cv;
 
-int main() {
+int main021() {
 	Mat src = imread("Pictures\\6.jpg");
 	imshow("src", src);
 

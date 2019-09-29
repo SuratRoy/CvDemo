@@ -136,6 +136,7 @@
     <ClCompile Include="019_高斯不同DOG.cpp" />
     <ClCompile Include="020_边缘检测_Sobel算子.cpp" />
     <ClCompile Include="021_边缘检测_Laplacain算子.cpp" />
+    <ClCompile Include="022_Canny边缘检测算法.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Pictures\1.png" />
