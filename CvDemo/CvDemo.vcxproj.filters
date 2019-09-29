@@ -84,6 +84,9 @@
     <ClCompile Include="023_霍夫变换检测直线.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="024_霍夫圆检测.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Pictures\1.png">
@@ -129,6 +132,9 @@
       <Filter>资源文件</Filter>
     </Image>
     <Image Include="Pictures\15.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Pictures\16.png">
       <Filter>资源文件</Filter>
     </Image>
   </ItemGroup>
