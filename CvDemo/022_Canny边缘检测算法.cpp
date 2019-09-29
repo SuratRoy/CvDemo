@@ -20,7 +20,7 @@ void CannyDemo(int pos, void*) {
 	imshow("dst", dst);
 }
 
-int main() {
+int main022() {
 	src22 = imread("Pictures\\6.jpg");
 	imshow("src", src22);
 

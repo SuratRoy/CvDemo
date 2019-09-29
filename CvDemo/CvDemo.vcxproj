@@ -137,6 +137,7 @@
     <ClCompile Include="020_边缘检测_Sobel算子.cpp" />
     <ClCompile Include="021_边缘检测_Laplacain算子.cpp" />
     <ClCompile Include="022_Canny边缘检测算法.cpp" />
+    <ClCompile Include="023_霍夫变换检测直线.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Pictures\1.png" />
@@ -145,6 +146,7 @@
     <Image Include="Pictures\12.jpg" />
     <Image Include="Pictures\13.png" />
     <Image Include="Pictures\14.png" />
+    <Image Include="Pictures\15.png" />
     <Image Include="Pictures\2.jpg" />
     <Image Include="Pictures\3.jpg" />
     <Image Include="Pictures\4.jpg" />

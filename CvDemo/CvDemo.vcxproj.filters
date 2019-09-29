@@ -81,6 +81,9 @@
     <ClCompile Include="022_Canny边缘检测算法.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="023_霍夫变换检测直线.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Pictures\1.png">
@@ -123,6 +126,9 @@
       <Filter>资源文件</Filter>
     </Image>
     <Image Include="Pictures\14.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Pictures\15.png">
       <Filter>资源文件</Filter>
     </Image>
   </ItemGroup>
