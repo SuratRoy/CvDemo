@@ -11,13 +11,10 @@ int main() {
 	imshow("gray", gray);
 
 	//÷–÷µ¬À≤®£¨“÷÷∆Ω∑—Œ‘Î…˘
-	medianBlur(gray, gray, 3);
-
-	threshold(gray, gray, 254, 255, THRESH_BINARY);
-	imshow("threshold", gray);
+	//medianBlur(gray, gray, 3);
 
 	vector<Vec3f> dst_circles;
-	HoughCircles(gray, dst_circles, cv::HoughModes::HOUGH_GRADIENT, 1, 30, 100, 20, 10, 200);
+	HoughCircles(gray, dst_circles, cv::HoughModes::HOUGH_GRADIENT, 1, 20, 100, 20, 10, 100);
 
 	Mat dst = src.clone();
 
