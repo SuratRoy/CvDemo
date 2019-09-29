@@ -75,6 +75,9 @@
     <ClCompile Include="020_边缘检测_Sobel算子.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="021_边缘检测_Laplacain算子.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Pictures\1.png">
