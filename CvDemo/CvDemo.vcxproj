@@ -139,6 +139,7 @@
     <ClCompile Include="022_Canny边缘检测算法.cpp" />
     <ClCompile Include="023_霍夫变换检测直线.cpp" />
     <ClCompile Include="024_霍夫圆检测.cpp" />
+    <ClCompile Include="025_像素重映射.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Pictures\16.png" />

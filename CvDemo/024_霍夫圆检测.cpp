@@ -2,7 +2,7 @@
 using namespace cv;
 using namespace std;
 
-int main() {
+int main024() {
 	Mat src = imread("Pictures\\17.png");
 	imshow("src", src);
 
