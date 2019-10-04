@@ -90,6 +90,9 @@
     <ClCompile Include="025_像素重映射.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="026_直方图均衡化.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Pictures\1.png">

@@ -140,6 +140,7 @@
     <ClCompile Include="023_霍夫变换检测直线.cpp" />
     <ClCompile Include="024_霍夫圆检测.cpp" />
     <ClCompile Include="025_像素重映射.cpp" />
+    <ClCompile Include="026_直方图均衡化.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Pictures\16.png" />
