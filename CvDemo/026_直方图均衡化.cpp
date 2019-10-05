@@ -1,7 +1,7 @@
 #include <opencv2/opencv.hpp>
 using namespace cv;
 
-int main() {
+int main026() {
 	Mat src = imread("Pictures\\6.jpg");
 	Mat gray;
 	cvtColor(src, gray, CV_BGR2GRAY);
