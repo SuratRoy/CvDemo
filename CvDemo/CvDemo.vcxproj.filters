@@ -99,6 +99,9 @@
     <ClCompile Include="028_直方图比较.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="029_直方图反向映射.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Pictures\1.png">

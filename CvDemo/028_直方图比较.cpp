@@ -4,7 +4,7 @@
 using namespace std;
 using namespace cv;
 
-int main() {
+int main028() {
 	Mat src = imread("Pictures\\4.jpg");
 	imshow("src", src);
 	Mat comp = imread("Pictures\\4_comp.jpg");
