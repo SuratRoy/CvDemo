@@ -102,6 +102,9 @@
     <ClCompile Include="029_直方图反向映射.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="030_模板匹配.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Pictures\1.png">
@@ -156,6 +159,12 @@
       <Filter>资源文件</Filter>
     </Image>
     <Image Include="Pictures\4_comp.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Pictures\18_temp.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Pictures\18.jpg">
       <Filter>资源文件</Filter>
     </Image>
   </ItemGroup>
