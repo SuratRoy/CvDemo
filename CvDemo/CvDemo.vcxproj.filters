@@ -96,6 +96,9 @@
     <ClCompile Include="027_直方图计算.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="028_直方图比较.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Pictures\1.png">
@@ -147,6 +150,9 @@
       <Filter>资源文件</Filter>
     </Image>
     <Image Include="Pictures\17.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Pictures\4_comp.jpg">
       <Filter>资源文件</Filter>
     </Image>
   </ItemGroup>

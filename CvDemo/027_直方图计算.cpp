@@ -3,7 +3,7 @@ using namespace cv;
 
 using namespace std;
 
-int main() {
+int main027() {
 	Mat src = imread("Pictures\\6.jpg");
 	imshow("src",src);
 

@@ -142,6 +142,7 @@
     <ClCompile Include="025_像素重映射.cpp" />
     <ClCompile Include="026_直方图均衡化.cpp" />
     <ClCompile Include="027_直方图计算.cpp" />
+    <ClCompile Include="028_直方图比较.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Pictures\16.png" />
@@ -156,6 +157,7 @@
     <Image Include="Pictures\2.jpg" />
     <Image Include="Pictures\3.jpg" />
     <Image Include="Pictures\4.jpg" />
+    <Image Include="Pictures\4_comp.jpg" />
     <Image Include="Pictures\5.jpg" />
     <Image Include="Pictures\6.jpg" />
     <Image Include="Pictures\7.jpg" />
