@@ -36,7 +36,7 @@ void ContoursDemo(int pos, void*) {
 	imshow("dst_contours", dst);
 }
 
-int main() {
+int main031() {
 	Mat src = imread("Pictures\\16.png");
 	imshow("src", src);
 

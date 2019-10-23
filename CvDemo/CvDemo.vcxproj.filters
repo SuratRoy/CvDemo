@@ -108,6 +108,9 @@
     <ClCompile Include="031_轮廓发现.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="032_凸包.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Pictures\1.png">
@@ -168,6 +171,9 @@
       <Filter>资源文件</Filter>
     </Image>
     <Image Include="Pictures\18.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Pictures\19.png">
       <Filter>资源文件</Filter>
     </Image>
   </ItemGroup>
