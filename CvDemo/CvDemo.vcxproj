@@ -145,7 +145,7 @@
     <ClCompile Include="028_直方图比较.cpp" />
     <ClCompile Include="029_直方图反向映射.cpp" />
     <ClCompile Include="030_模板匹配.cpp" />
-    <ClCompile Include="31_轮廓发现.cpp" />
+    <ClCompile Include="031_轮廓发现.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Pictures\16.png" />
