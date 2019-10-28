@@ -147,6 +147,7 @@
     <ClCompile Include="030_模板匹配.cpp" />
     <ClCompile Include="031_轮廓发现.cpp" />
     <ClCompile Include="032_凸包.cpp" />
+    <ClCompile Include="033_多边形.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Pictures\16.png" />

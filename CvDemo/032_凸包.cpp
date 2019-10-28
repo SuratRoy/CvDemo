@@ -38,7 +38,7 @@ void ConvexDemo(int pos, void*) {
 	imshow("dst_convexs", dst_convexs);
 }
 
-int main() {
+int main032() {
 	Mat src = imread("Pictures\\19.png");
 	imshow("src", src);
 
