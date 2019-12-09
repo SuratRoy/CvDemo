@@ -47,7 +47,7 @@ void PolyDemo(int pos, void*) {
 	imshow("dst_polys", dst_polys);
 }
 
-int main() {
+int main033() {
 	Mat src = imread("Pictures\\19.png");
 	imshow("src", src);
 
