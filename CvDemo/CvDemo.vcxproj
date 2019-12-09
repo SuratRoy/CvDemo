@@ -148,7 +148,7 @@
     <ClCompile Include="031_轮廓发现.cpp" />
     <ClCompile Include="032_凸包.cpp" />
     <ClCompile Include="033_多边形.cpp" />
-    <ClCompile Include="D:\课程配套源代码\课程配套源代码\034_图形矩.cpp" />
+    <ClCompile Include="034_图形矩.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Pictures\16.png" />

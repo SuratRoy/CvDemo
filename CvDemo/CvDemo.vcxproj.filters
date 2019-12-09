@@ -114,7 +114,7 @@
     <ClCompile Include="033_多边形.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="D:\课程配套源代码\课程配套源代码\034_图形矩.cpp">
+    <ClCompile Include="034_图形矩.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
