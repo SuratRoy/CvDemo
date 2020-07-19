@@ -12,7 +12,7 @@ Mat src34, gray_src34;
 const char* output_win = "image moents demo";
 RNG rng(12345);
 void Demo_Moments(int, void*);
-int main(int argc, char** argv) {
+int main034(int argc, char** argv) {
 	src34 = imread("Pictures\\19.png");
 	if (!src34.data) {
 		printf("could not load image...\n");
