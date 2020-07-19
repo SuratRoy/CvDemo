@@ -19,13 +19,12 @@ int main019() {
 	GaussianBlur(gray, g1, Size(3, 3), 0);
 	GaussianBlur(g1, g2, Size(3, 3), 0);
 	//图像相减
-	subtract(g1, g2, dst_dog);
+	//subtract(g1, g2, dst_dog);  这个方法和下面的运算相同
+	dst_dog = g1 - g2;
 	//归一化处理
 	//NORM_MINMAX:数组的数值被平移或缩放到一个指定的范围，线性归一化，一般较常用
 	normalize(dst_dog, dst_dog, 0, 255, cv::NormTypes::NORM_MINMAX);
-
 	imshow("dst_dog", dst_dog);
-
 	waitKey(0);
 	return 0;
 }

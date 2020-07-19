@@ -15,14 +15,14 @@ int main013() {
 	imshow("src", src);
 	Mat dst_open, dst_close;
 
-	Mat k = getStructuringElement(MORPH_RECT, Size(9, 9));
+	Mat k = getStructuringElement(MORPH_RECT, Size(5, 5));
 
 	//先进行开操作，去掉外面的白点干扰
-	morphologyEx(src, dst_open, CV_MOP_OPEN, k);
+	morphologyEx(src, dst_open, CV_MOP_OPEN, k, Point(-1, -1), 2);  //2次5*5开操作
 	imshow("dst_open", dst_open);
 
 	//然后再进行闭操作，去除里面的黑点干扰
-	morphologyEx(dst_open, dst_close, CV_MOP_CLOSE, k);
+	morphologyEx(dst_open, dst_close, CV_MOP_CLOSE, k, Point(-1, -1), 2);
 	imshow("dst_close", dst_close);
 
 	waitKey(0);

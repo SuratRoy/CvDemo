@@ -142,6 +142,13 @@
     <ClCompile Include="025_像素重映射.cpp" />
     <ClCompile Include="026_直方图均衡化.cpp" />
     <ClCompile Include="027_直方图计算.cpp" />
+    <ClCompile Include="028_直方图比较.cpp" />
+    <ClCompile Include="029_直方图反向映射.cpp" />
+    <ClCompile Include="030_模板匹配.cpp" />
+    <ClCompile Include="031_轮廓发现.cpp" />
+    <ClCompile Include="032_凸包.cpp" />
+    <ClCompile Include="033_多边形.cpp" />
+    <ClCompile Include="034_图形矩.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Pictures\16.png" />
@@ -153,9 +160,13 @@
     <Image Include="Pictures\14.png" />
     <Image Include="Pictures\15.png" />
     <Image Include="Pictures\17.png" />
+    <Image Include="Pictures\18.jpg" />
+    <Image Include="Pictures\18_temp.png" />
+    <Image Include="Pictures\19.png" />
     <Image Include="Pictures\2.jpg" />
     <Image Include="Pictures\3.jpg" />
     <Image Include="Pictures\4.jpg" />
+    <Image Include="Pictures\4_comp.jpg" />
     <Image Include="Pictures\5.jpg" />
     <Image Include="Pictures\6.jpg" />
     <Image Include="Pictures\7.jpg" />
