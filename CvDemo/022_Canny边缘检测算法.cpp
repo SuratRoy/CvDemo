@@ -12,9 +12,8 @@ void CannyDemo(int pos, void*) {
 	Mat edges;
 	//Canny算法提取边缘
 	Canny(dst_gray22, edges, pos, pos * 2);
-
 	//将边缘转为彩色图像
-	Mat dst(dst_gray22.size(), dst_gray22.type());
+	Mat dst;
 	src22.copyTo(dst, edges);
 
 	imshow("dst", dst);
