@@ -1,0 +1,342 @@
+*{margin: 0;padding: 0;}
+p{}
+h4{}
+h3{font-family: arial black}
+
+
+body{max-width: 1000px;margin:auto;}
+
+
+#header_nam_img, #detail_me{
+	display: inline-block;
+}
+#header_nam_img{
+	width:350px;
+	background: #D0CECF;
+	font-family: arial;
+	padding: 0 0 30px 0;
+}
+#with_me{
+	width:350px;
+	background: #D0CECF;
+	font-family: arial;
+	padding-bottom: 100px;
+	padding-top: 20px;
+}
+#header_nam_img #name{
+	margin:0 30px;
+	font-family: arial black;
+	padding-top: 40px;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+#header_nam_img #name h3{
+	margin-left: 10px;
+}
+#header_nam_img #name span{
+	color:orange;
+}
+
+#header_nam_img img{width: 100%}
+
+#with_me #contuct{margin: 57px;}
+#with_me #contuct h3{
+	line-height: 26px;
+	font-family: arial black;
+}
+#with_me #contuct h4{margin: 10px 0 3px}
+#with_me #contuct p{margin-bottom: 20px}
+#with_me #contuct a{color:#000;}
+
+#with_me #lang{margin: -18px 57px;}
+#with_me #lang h3{
+	line-height: 27px;
+	font-family: arial black;
+	letter-spacing: 1px;
+}
+#with_me #lang h4{margin: 10px 0 3px}
+#with_me #lang p{
+    margin: 8px 0;
+}
+
+#with_me #lang hr{margin-bottom: 20px;}
+
+
+
+#with_me #hobbies{
+	margin: -18px 57px;
+	padding-bottom: 10px;
+}
+#with_me #hobbies h3{
+	line-height: 22px;
+	font-family: arial black;
+	letter-spacing: 1px;
+	margin-top: 57px;
+	}
+#with_me #hobbies h4{margin: 10px 0 3px}
+#with_me #hobbies p{
+    margin: 8px 0;
+}
+
+#with_me #hobbies hr{margin-bottom: 20px;}
+#with_me #hobbies ul{margin-left: 16px;}
+#with_me #hobbies ul li{line-height: 25px}
+
+
+#detail_me{width:550px;
+	float: right;
+	font-family: arial;
+	margin: 24px;}
+#detail_me div{margin-top: 20px;}
+#detail_me h3{margin: 4px 0;}
+#detail_me hr{
+	margin-bottom: 8px;
+	width: 473px;
+}
+#detail_me p{margin-bottom: 3px;
+	width: 454px;
+	line-height: 23px;
+	font-size: 16px;
+}
+#detail_me #skill{width:454px;}
+#detail_me #skill ul{
+	display: inline-block;
+	margin: 16px 33px;
+	width: 157px;
+}
+
+#detail_me #skill #list{float: right;}
+#detail_me #skill ul li{line-height: 24px}
+#experience span{font-weight: 400;}
+#experience h4{line-height: 25px}
+#experience ul {width: 433px;margin: 10px 0 10px 27px;}
+#experience ul li {line-height: 24px;}
+
+
+
+@media only screen and (min-width: 600px) {
+	#header_nam_img{
+		width:100%;
+		position:relative;
+		
+	}
+	#with_me{
+		width:200px;
+		padding-bottom: 410px;
+	}
+	#with_me #contuct{margin: 30px}
+	#with_me #contuct a{font-size:13px;}
+	#with_me #lang{margin: 30px}
+	#with_me #hobbies{margin: 30px}
+	#header_nam_img, #detail_me{display:block;}
+	#detail_me{
+		width:350px; 
+		position:relative;
+		margin:0 33px 0 0;
+	}
+	#detail_me #skill{width:350px;}
+	#detail_me #skill ul{display: inline-block;
+		margin: 16px 3px 16px 20px;
+		width: 148px;}
+
+	#detail_me #skill #list{float: right;}
+	#detail_me p{width:350px;}
+	#detail_me hr{width:350px;}
+	#detail_me, #with_me{display:inline-block;}
+	#experience ul {
+		width: 350px;
+		margin: 10px 0 10px 27px;
+	}
+}
+
+
+@media only screen and (max-width: 600px) {
+
+	#header_nam_img, #detail_me, #with_me{
+		display:block;
+		width:100%;
+	}
+	#with_me{
+		width:100%;
+		padding-bottom: 20px;
+		position: relative;
+		top: 1138px;
+	}
+	#detail_me{
+		width:100%;
+		position: absolute;
+		margin:;
+		background: #fff;
+	}
+	#detail_me div{
+		margin-top: 20px;
+		width:90%;
+	}
+	#detail_me h3{
+		margin: 4px 0;
+	}
+	#detail_me hr{
+		margin-bottom: 8px;
+		width: 90%;
+	}
+	#detail_me p{
+		margin-bottom: 3px;
+		width: 90%;
+		line-height: 23px;
+		font-size: 16px;
+	}
+	#detail_me #skill{width:90%;}
+	#detail_me #skill ul{
+		display: block;
+		margin: 16px 33px;
+		
+	}
+
+	#detail_me #skill #list{float: none;}
+	
+	#experience ul {
+		width: 90%;
+		margin: 0 10px}
+	#experience ul li {line-height: 24px;}
+}
+
+
+
+
+@media only screen and (min-width: 688px) {
+	#header_nam_img{
+		width:100%;
+		position:relative;
+		
+	}
+	#with_me{
+		width:250px;
+		padding-bottom: 470px;
+	}
+	#with_me #contuct a{font-size:16px }
+	#header_nam_img, #detail_me{display:;}
+	#detail_me{
+		width:400px; 
+		position:relative;
+		margin-right:10px ;
+		margin-left: ;
+	}
+	/*#detail_me, #with_me{display:inline-block;}*/
+}
+
+
+@media only screen and (min-width: 768px){
+	#header_nam_img{
+		width:280px;
+		position:relative;
+		
+	}
+	#with_me{
+		width:280px;
+    	padding-bottom: 200px;
+
+	}
+	#detail_me, #header_nam_img{display:inline-block;padding: 0;}
+    #detail_me{
+    	float: right;
+    	width:450px; 
+		position:relative;
+		margin:10px ;
+		margin-left: ;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 842px){
+	#header_nam_img{
+		width:350px;
+		position:relative;
+		
+	}
+	#with_me{
+		width:350px;
+		padding-bottom: 141px;
+	}
+	#with_me #contuct{margin: 57px;}
+	#with_me #lang{margin: -18px 57px;}
+	#with_me #hobbies{margin: -18px 57px;padding-bottom: 10px;}
+	#with_me #contuct a{font-size:18px; font-weight: 200; }
+	#detail_me, #header_nam_img{display:inline-block;}
+    #detail_me{
+    	float: right;
+    	width:450px; 
+		position:relative;
+		margin:10px ;
+		margin-left: ;
+    }
+
+
+}
+
+@media only screen and (min-width: 940px){
+	#header_nam_img{
+		width:350px;
+		position:relative;
+		
+	}
+	#with_me{
+		width:350px;
+		padding-bottom: 0px;
+	}
+	#with_me #contuct{margin: 57px;}
+	#with_me #lang{margin: -18px 57px;}
+	#with_me #hobbies{margin: -18px 57px;padding-bottom: 10px;}
+	#with_me #contuct a{font-size:20px; font-weight: 200; }
+	#with_me #lang{margin: -18px 57px;}
+	#detail_me, #header_nam_img{display:inline-block;}
+    #detail_me{
+    	float: right;
+    	width:550px; 
+		position:relative;
+		margin:10px ;
+		margin-left: ;
+    }
+     #detail_me p{width:454px;}
+     #detail_me hr{width:464px;}
+      #detail_me #skill {width:454px;}
+     #detail_me #skill ul{display: inline-block;margin: 16px 33px;width: 157px;}
+
+
+}
+
+
+@media only screen and (min-width: 992px){
+	#header_nam_img{
+		width:350px;
+		position:relative;
+		
+	}
+	#with_me{
+		width:350px;
+		padding-bottom: 30px;
+	}
+	#with_me #contuct{margin: 57px;}
+	#with_me #lang{margin: -18px 57px;}
+	#with_me #hobbies{margin: -18px 57px;padding-bottom: 10px;}
+	#with_me #contuct a{font-size:18px; font-weight: 200; }
+	#detail_me, #header_nam_img{display:inline-block;padding: 0;}
+    #detail_me{
+    	float: right;
+    	width:600px;
+    	position:relative;
+    	margin: 24px 10px;
+    	margin-left:;
+    }
+    
+
+}
+
+
+
+
+
+
+
